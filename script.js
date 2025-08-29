@@ -1,6 +1,6 @@
 document.getElementById('add-task').addEventListener('click', function() {
     const taskInput = document.getElementById('new-task');
-    const taskValue = taskInput.value;
+    const taskValue = taskInput.value.trim(); // Trim whitespace from input
 
     if (taskValue) {
         const li = document.createElement('li');
