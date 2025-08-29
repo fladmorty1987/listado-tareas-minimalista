@@ -1,54 +1,54 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 20px;
+    font-family: Arial, sans-serif; /* Set font family */
+    background-color: #f4f4f4; /* Set background color */
+    margin: 0; /* Remove default margin */
+    padding: 20px; /* Add padding around the body */
 }
 
 .container {
-    max-width: 600px;
-    margin: auto;
-    background: white;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 600px; /* Set maximum width */
+    margin: auto; /* Center horizontally */
+    background: white; /* White background for the container */
+    padding: 20px; /* Inner padding */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Soft shadow */
 }
 
 h1 {
-    text-align: center;
+    text-align: center; /* Center align headings */
 }
 
 input {
-    width: 75%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    width: 75%; /* Set input width */
+    padding: 10px; /* Padding inside input */
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 5px; /* Rounded corners for input */
 }
 
 button {
-    padding: 10px;
-    border: none;
-    background: #5cb85c;
-    color: white;
-    border-radius: 5px;
-    cursor: pointer;
+    padding: 10px; /* Padding inside button */
+    border: none; /* Remove border from button */
+    background: #5cb85c; /* Button background color */
+    color: white; /* Text color */
+    border-radius: 5px; /* Rounded corners for button */
+    cursor: pointer; /* Change cursor on hover */
 }
 
 button:hover {
-    background: #4cae4c;
+    background: #4cae4c; /* Darker green when hovered */
 }
 
 ul {
-    list-style: none;
-    padding: 0;
+    list-style: none; /* Remove bullet points from lists */
+    padding: 0; /* Remove default padding */
 }
 
 li {
-    padding: 10px;
-    border-bottom: 1px solid #ccc;
+    padding: 10px; /* Padding for list items */
+    border-bottom: 1px solid #ccc; /* Border below each item */
 }
 
 .completed {
-    text-decoration: line-through;
-    color: #999;
+    text-decoration: line-through; /* Strike through completed items */
+    color: #999; /* Lighter color for completed items */
 }
