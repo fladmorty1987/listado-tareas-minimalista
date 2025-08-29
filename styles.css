@@ -1,54 +1,54 @@
 body {
-    font-family: Arial, sans-serif; /* Set font family */
-    background-color: #f4f4f4; /* Set background color */
-    margin: 0; /* Remove default margin */
-    padding: 20px; /* Add padding around the body */
+    font-family: Arial, sans-serif; /* Set default font family for the body */
+    background-color: #f4f4f4; /* Set a light gray background color */
+    margin: 0; /* Remove default margin to prevent unwanted spacing */
+    padding: 20px; /* Add padding around the body for spacing */
 }
 
 .container {
-    max-width: 600px; /* Set maximum width */
-    margin: auto; /* Center horizontally */
-    background: white; /* White background for the container */
-    padding: 20px; /* Inner padding */
-    border-radius: 5px; /* Rounded corners */
-    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Soft shadow */
+    max-width: 600px; /* Set a maximum width for the container */
+    margin: auto; /* Center the container horizontally on the page */
+    background: white; /* Set white background for better contrast */
+    padding: 20px; /* Add padding for inner content spacing */
+    border-radius: 5px; /* Create rounded corners for the container */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Add a soft shadow effect for depth */
 }
 
 h1 {
-    text-align: center; /* Center align headings */
+    text-align: center; /* Center align the heading text */
 }
 
 input {
-    width: 75%; /* Set input width */
-    padding: 10px; /* Padding inside input */
-    border: 1px solid #ccc; /* Light grey border */
-    border-radius: 5px; /* Rounded corners for input */
+    width: 75%; /* Set input field to occupy 75% of the container width */
+    padding: 10px; /* Add padding for comfortable text entry */
+    border: 1px solid #ccc; /* Apply a light gray border to input fields */
+    border-radius: 5px; /* Round corners for input fields */
 }
 
 button {
-    padding: 10px; /* Padding inside button */
-    border: none; /* Remove border from button */
-    background: #5cb85c; /* Button background color */
-    color: white; /* Text color */
-    border-radius: 5px; /* Rounded corners for button */
-    cursor: pointer; /* Change cursor on hover */
+    padding: 10px; /* Add padding for button click area */
+    border: none; /* Remove default border for clean appearance */
+    background: #5cb85c; /* Set button background color to green */
+    color: white; /* Set text color to white for contrast */
+    border-radius: 5px; /* Round corners for buttons */
+    cursor: pointer; /* Change cursor style to pointer on hover */
 }
 
 button:hover {
-    background: #4cae4c; /* Darker green when hovered */
+    background: #4cae4c; /* Change background to darker green when hovered */
 }
 
 ul {
-    list-style: none; /* Remove bullet points from lists */
-    padding: 0; /* Remove default padding */
+    list-style: none; /* Remove bullet points from unordered lists */
+    padding: 0; /* Remove default padding for clean list appearance */
 }
 
 li {
-    padding: 10px; /* Padding for list items */
-    border-bottom: 1px solid #ccc; /* Border below each item */
+    padding: 10px; /* Add padding for each list item for spacing */
+    border-bottom: 1px solid #ccc; /* Add a border below each item for separation */
 }
 
 .completed {
-    text-decoration: line-through; /* Strike through completed items */
-    color: #999; /* Lighter color for completed items */
+    text-decoration: line-through; /* Apply strikethrough for completed items */
+    color: #999; /* Set a lighter color for completed items to indicate they are done */
 }
